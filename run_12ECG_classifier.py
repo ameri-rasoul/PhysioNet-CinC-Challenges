@@ -46,5 +46,5 @@ def load_12ECG_model():
 
     ## Load attention model
     custom_ob = {'attention':attention}
-    loaded_model = tf.keras.models.load_model('model-29-0.881622-1.3492.h5', custom_objects=custom_ob)
+    loaded_model = tf.keras.models.load_model('Models/model-29-0.881622-1.3492.h5', custom_objects=custom_ob)
     return loaded_model
